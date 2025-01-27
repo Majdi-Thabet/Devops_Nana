@@ -22,3 +22,6 @@ In short, the operating system:
 2. Provides a consistent interface for applications to interact with hardware.
 3. Balances resource usage and ensures efficient operation across multiple programs.
 
+Every application needs some data to work, so you can't execute any program without allocationg some memory to it.
+so OS swap memory between applications (one app become inactive, new one gets ressources)
+
