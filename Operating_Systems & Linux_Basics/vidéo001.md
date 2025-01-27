@@ -18,7 +18,7 @@ Additionally, the OS ensures fair resource management between applications. If C
 
 In short, the operating system:
 
-Manages hardware resources and allocates them to applications.
-Provides a consistent interface for applications to interact with hardware.
-Balances resource usage and ensures efficient operation across multiple programs.
+1. Manages hardware resources and allocates them to applications.
+2. Provides a consistent interface for applications to interact with hardware.
+3. Balances resource usage and ensures efficient operation across multiple programs.
 
