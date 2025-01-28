@@ -37,4 +37,9 @@ if you tape :
 
 **:q!** that means quit without changing the changes.
 
+if we want to delete lines in our file, cliq on esc and **dd** to delete on line. You can delete a 10 lines by taping : **d10** to delte a 10 lines.
+
+when you delete 10 lines for exp and you want to undo these changes, you can tape : **u** (to undo)
+
+
 
