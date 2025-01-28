@@ -41,5 +41,15 @@ if we want to delete lines in our file, cliq on esc and **dd** to delete on line
 
 when you delete 10 lines for exp and you want to undo these changes, you can tape : **u** (to undo)
 
+to go to the end of the line, tape **shift and A** or **shift and 0** to go to the beginning of the line.
+
+to search for exp for the word patter,in the file, tape : **/pattern**
+
+if we want to replace the world nginx in the file(les mots lkol) by the world web-app, tape: **:%s/nginx/web-app**
+
+
+
+
+
 
 
