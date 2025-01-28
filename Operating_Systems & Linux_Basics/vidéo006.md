@@ -46,11 +46,41 @@ Exp, we have a devops team, a developer team, an admin team, so user will be add
 
 ### User Management in practice (min 12:05)
 
+to add a new user, you can tape :
+
 sudo adduser tom
 
 to check that the user is added, tape :
 
 cat /etc/passwd
+
+To switch from user to another user : 
+
+su - <username>  // su short for substitute or switch user.
+
+exp : su - tom
+
+To add a new group : sudo groupadd <groupname> 
+
+Exp :
+
+sudo groupadd devops
+
+to verify : cat /etc/group
+
+sudo usermod -g devops tom  // to make devops as the primary group of user tom
+
+We can add a user to multiple group :
+
+tape : groups to list all the groups and tape groups tom to list the group(s) of Tom.
+
+sudo useradd -G devops nicole  // create a new user in devops group
+
+to remove a user from a group : 
+
+sudo gpasswd -d nicole devops  // -d means delete 
+
+
 
 
 
