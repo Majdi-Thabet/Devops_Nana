@@ -18,8 +18,35 @@ we can filter the outpu of cammand to search for a particular pattern for exp:
 
 ```history | grep sudo```
 
-Result  : Having only all commands that start with 'sudo' word. 
+Result  : Filtering the history entries that start with 'sudo' word command. 
 
 ``` history | grep "sudo chmod" ```
 
-Result  : Having only all commands that start with 'sudo chmod' string.
+Result  : Filtering the history entries that start with 'sudo chmod' string.
+
+we can pass the output of a program in another program too:
+
+``` history | grep sudo | less``` 
+so in our exp, less will contain the filter of sudo word from history commands.
+
+### Redirects in Linux (min 14:11)
+
+we can redirect the result of command execution into a file for exp.
+
+We saw how to filter the history entries that start with 'sudo' word command. we want to save the outpu of command ```history | grep sudo ``` into a file. This is done by redirecting the result of this prog into a file by using : **>**
+
+``` history | grep sudo > sudo-commands.txt```
+
+to veify : 
+
+```cat sudo-commands.txt```
+
+we use **>>** : to append text to end of file.
+
+
+
+
+
+
+
+
