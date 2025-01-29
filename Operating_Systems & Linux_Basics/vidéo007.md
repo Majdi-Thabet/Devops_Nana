@@ -13,6 +13,6 @@ min 3:39
 chown  : to change the ownership 
 
 there are 3 ways to set permissions : 
-1. Symbolic Mode (+ - to add and remove with r, w, x and  - )
-2. set permission =
-3. Numeric Mode : 4: for read, 2: for write, 1: for exec and 0: for no permission
+**1. Symbolic Mode (+ - to add and remove with r, w, x and  - )**
+**2. set permission =**
+**3. Numeric Mode : 4: for read, 2: for write, 1: for exec and 0: for no permission**
